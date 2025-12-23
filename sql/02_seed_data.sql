@@ -1,0 +1,12 @@
+INSERT INTO production_raw (plant, line, machine_id, production_date, produced_qty, scrap_qty)
+VALUES
+('Plant A', 'Line 1', 'M001', '2025-12-01', 500, 5),
+('Plant A', 'Line 1', 'M002', '2025-12-01', 480, 8),
+('Plant A', 'Line 2', 'M003', '2025-12-01', 450, 12),
+('Plant B', 'Line 1', 'M004', '2025-12-01', 520, 7),
+('Plant B', 'Line 2', 'M005', '2025-12-01', 470, 6),
+('Plant A', 'Line 1', 'M001', '2025-12-02', 510, 4),
+('Plant A', 'Line 2', 'M003', '2025-12-02', 460, 10),
+('Plant B', 'Line 1', 'M004', '2025-12-02', 530, 5),
+('Plant B', 'Line 2', 'M005', '2025-12-02', 480, 8),
+('Plant A', 'Line 1', 'M002', '2025-12-02', 490, 6);
