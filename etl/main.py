@@ -19,8 +19,13 @@ def main():
         print(f"Extracted {len(rows)} rows")
 
         # Transform
-        transformed = transform_data(rows)
+        transformed, rejected = transform_data(rows)
         print(f"Transformed into {len(transformed)} aggregated rows")
+        print(f"Rejected rows: {len(rejected)}")
+
+        # (opzionale) Mostra esempi di scarti (i primi 5 elementi)
+        for r, reason in rejected[:5]:
+            print(f"Rejected {r} → {reason}")
 
         # Load
         load_data(conn, transformed)
