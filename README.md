@@ -71,7 +71,7 @@ Sono stati creati **indici SQL** sulle colonne più utilizzate (data, stabilimen
 
 ---
 
-## 📋 Logging & Monitoring
+## Logging & Monitoring
 
 - Logging implementato in Python
 - Tracciate tutte le fasi dell’ETL:
@@ -84,7 +84,7 @@ Sono stati creati **indici SQL** sulle colonne più utilizzate (data, stabilimen
 
 ---
 
-## ⚠️ Problemi incontrati
+## Problemi incontrati
 
 - Gestione di dati sporchi e incoerenti
 - Evitare duplicazioni in caso di rilanci dell’ETL
@@ -97,7 +97,7 @@ Questi problemi sono stati affrontati con:
 
 ---
 
-## 🚀 Miglioramenti futuri
+## Miglioramenti futuri
 
 - ETL incrementale basato su timestamp
 - Ingestione real-time con **Kafka**
@@ -107,7 +107,7 @@ Questi problemi sono stati affrontati con:
 
 ---
 
-## 🧠 Competenze dimostrate
+## Competenze dimostrate
 
 - SQL e ottimizzazione query
 - ETL design
